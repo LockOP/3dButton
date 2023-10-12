@@ -130,11 +130,11 @@ function App() {
         }}
         className={`absolute z-30 w-auto transition-c h-auto object-cover ${
           h
-            ? "rotate-[-240deg] scale-150 -translate-x-[20px] translate-y-[90px]"
-            : "-translate-x-[20px] translate-y-[20px] opacity-0"
+            ? "rotate-[-240deg] scale-150 -translate-x-[20px] translate-y-[110px]"
+            : "-translate-x-[20px] translate-y-[40px] opacity-0"
         } ${
           d
-            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[175px]"
+            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[170px]"
             : ""
         }`}
         src={s6}
