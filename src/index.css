@@ -17,5 +17,5 @@
 }
 
 .custom-cursor {
-    cursor: url('') 10 10, auto;
+    cursor: url('./images/Cursor.svg') 5 5, auto;
   }

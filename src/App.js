@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div
-      className={`w-screen select-none h-screen bg-[black] flex items-center justify-center`}
+      className={`custom-cursor w-screen select-none h-screen bg-[black] flex items-center justify-center`}
     >
       <div className="absolute top-0 text-[white] font-['Fondamento'] text-2xl mt-10">
         Hover, Click, Hold, Release ...
@@ -110,11 +110,11 @@ function App() {
         }}
         className={`absolute z-30 w-auto transition-c h-auto object-cover ${
           h
-            ? "rotate-[300deg] scale-150 -translate-x-[10px] -translate-y-[90px]"
+            ? "rotate-[300deg] scale-150 -translate-x-[1px] -translate-y-[110px]"
             : "-translate-x-[20px] -translate-y-[20px] opacity-0"
         } ${
           d
-            ? "rotate-[500deg] scale-50 -translate-x-[40px] -translate-y-[140px]"
+            ? "rotate-[500deg] scale-50 -translate-x-[40px] -translate-y-[160px]"
             : ""
         }`}
         src={s5}
@@ -134,7 +134,7 @@ function App() {
             : "-translate-x-[20px] translate-y-[20px] opacity-0"
         } ${
           d
-            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[160px]"
+            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[165px]"
             : ""
         }`}
         src={s6}
@@ -153,7 +153,7 @@ function App() {
         onMouseUp={() => {
           setD(false);
         }}
-        className={`cursor-default absolute overflow-hidden transition-c z-10 w-max h-max py-6 px-16 border-[white] border-[1px] rounded-full bg-[black] ${
+        className={`absolute overflow-hidden transition-c z-10 w-max h-max py-6 px-16 border-[white] border-[1px] rounded-full bg-[black] ${
           h ? "rotate-[-10deg] scale-150" : ""
         } ${d ? "translate-y-5 -translate-x-1" : ""}`}
       >
