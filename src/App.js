@@ -19,7 +19,8 @@ function App() {
       <div className="absolute top-0 text-[white] font-['Fondamento'] text-2xl mt-10">
         Hover, Click, Hold, Release ...
       </div>
-      <div
+
+      <img
         onMouseEnter={() => {
           setH(true);
         }}
@@ -27,22 +28,19 @@ function App() {
           setH(false);
           setD(false);
         }}
-        className="absolute z-30 flex justify-center items-center"
-      >
-        <img
-          className={`w-auto transition-c h-auto object-cover ${
-            h
-              ? "rotate-[174deg] scale-150 translate-x-[180px] -translate-y-[90px]"
-              : "translate-x-[90px] -translate-y-[20px] opacity-0"
-          } ${
-            d
-              ? "rotate-[274deg] scale-50 translate-x-[210px] -translate-y-[130px]"
-              : ""
-          }`}
-          src={s1}
-        />
-      </div>
-      <div
+        className={`absolute z-30 w-auto transition-c h-auto object-cover ${
+          h
+            ? "rotate-[174deg] scale-150 translate-x-[180px] -translate-y-[90px]"
+            : "translate-x-[90px] -translate-y-[20px] opacity-0"
+        } ${
+          d
+            ? "rotate-[274deg] scale-50 translate-x-[210px] -translate-y-[130px]"
+            : ""
+        }`}
+        src={s1}
+      />
+
+      <img
         onMouseEnter={() => {
           setH(true);
         }}
@@ -50,22 +48,19 @@ function App() {
           setH(false);
           setD(false);
         }}
-        className="absolute z-30 flex justify-center items-center"
-      >
-        <img
-          className={`w-auto transition-c h-auto object-cover ${
-            h
-              ? "rotate-[-120deg] scale-150 translate-x-[170px] translate-y-[70px]"
-              : "translate-x-[90px] translate-y-[20px] opacity-0"
-          } ${
-            d
-              ? "rotate-[-220deg] scale-50 translate-x-[210px] translate-y-[120px]"
-              : ""
-          }`}
-          src={s2}
-        />
-      </div>
-      <div
+        className={`absolute z-30 w-auto transition-c h-auto object-cover ${
+          h
+            ? "rotate-[-120deg] scale-150 translate-x-[170px] translate-y-[70px]"
+            : "translate-x-[90px] translate-y-[20px] opacity-0"
+        } ${
+          d
+            ? "rotate-[-220deg] scale-50 translate-x-[210px] translate-y-[120px]"
+            : ""
+        }`}
+        src={s2}
+      />
+
+      <img
         onMouseEnter={() => {
           setH(true);
         }}
@@ -73,22 +68,19 @@ function App() {
           setH(false);
           setD(false);
         }}
-        className="absolute z-30 flex justify-center items-center"
-      >
-        <img
-          className={`w-auto transition-c h-auto object-cover ${
-            h
-              ? "rotate-[200deg] scale-150 -translate-x-[190px] translate-y-[60px]"
-              : "-translate-x-[90px] translate-y-[20px] opacity-0"
-          } ${
-            d
-              ? "rotate-[400deg] scale-50 -translate-x-[230px] translate-y-[100px]"
-              : ""
-          }`}
-          src={s3}
-        />
-      </div>
-      <div
+        className={`absolute z-30 w-auto transition-c h-auto object-cover ${
+          h
+            ? "rotate-[200deg] scale-150 -translate-x-[190px] translate-y-[60px]"
+            : "-translate-x-[90px] translate-y-[20px] opacity-0"
+        } ${
+          d
+            ? "rotate-[400deg] scale-50 -translate-x-[230px] translate-y-[100px]"
+            : ""
+        }`}
+        src={s3}
+      />
+
+      <img
         onMouseEnter={() => {
           setH(true);
         }}
@@ -96,22 +88,19 @@ function App() {
           setH(false);
           setD(false);
         }}
-        className="absolute z-30 flex justify-center items-center"
-      >
-        <img
-          className={`w-auto transition-c h-auto object-cover ${
-            h
-              ? "rotate-[-179deg] scale-150 -translate-x-[140px] -translate-y-[70px]"
-              : "-translate-x-[90px] -translate-y-[20px] opacity-0"
-          } ${
-            d
-              ? "rotate-[-279deg] scale-50 -translate-x-[170px] -translate-y-[120px]"
-              : ""
-          }`}
-          src={s4}
-        />
-      </div>
-      <div
+        className={`absolute z-30 w-auto transition-c h-auto object-cover ${
+          h
+            ? "rotate-[-179deg] scale-150 -translate-x-[140px] -translate-y-[70px]"
+            : "-translate-x-[90px] -translate-y-[20px] opacity-0"
+        } ${
+          d
+            ? "rotate-[-279deg] scale-50 -translate-x-[170px] -translate-y-[120px]"
+            : ""
+        }`}
+        src={s4}
+      />
+
+      <img
         onMouseEnter={() => {
           setH(true);
         }}
@@ -119,22 +108,19 @@ function App() {
           setH(false);
           setD(false);
         }}
-        className="absolute z-30 flex justify-center items-center"
-      >
-        <img
-          className={`w-auto transition-c h-auto object-cover ${
-            h
-              ? "rotate-[300deg] scale-150 -translate-x-[10px] -translate-y-[90px]"
-              : "-translate-x-[20px] -translate-y-[20px] opacity-0"
-          } ${
-            d
-              ? "rotate-[500deg] scale-50 -translate-x-[40px] -translate-y-[140px]"
-              : ""
-          }`}
-          src={s5}
-        />
-      </div>
-      <div
+        className={`absolute z-30 w-auto transition-c h-auto object-cover ${
+          h
+            ? "rotate-[300deg] scale-150 -translate-x-[10px] -translate-y-[90px]"
+            : "-translate-x-[20px] -translate-y-[20px] opacity-0"
+        } ${
+          d
+            ? "rotate-[500deg] scale-50 -translate-x-[40px] -translate-y-[140px]"
+            : ""
+        }`}
+        src={s5}
+      />
+
+      <img
         onMouseEnter={() => {
           setH(true);
         }}
@@ -142,21 +128,17 @@ function App() {
           setH(false);
           setD(false);
         }}
-        className="absolute z-30 flex justify-center items-center"
-      >
-        <img
-          className={`w-auto transition-c h-auto object-cover ${
-            h
-              ? "rotate-[-240deg] scale-150 -translate-x-[20px] translate-y-[90px]"
-              : "-translate-x-[20px] translate-y-[20px] opacity-0"
-          } ${
-            d
-              ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[150px]"
-              : ""
-          }`}
-          src={s6}
-        />
-      </div>
+        className={`absolute z-30 w-auto transition-c h-auto object-cover ${
+          h
+            ? "rotate-[-240deg] scale-150 -translate-x-[20px] translate-y-[90px]"
+            : "-translate-x-[20px] translate-y-[20px] opacity-0"
+        } ${
+          d
+            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[160px]"
+            : ""
+        }`}
+        src={s6}
+      />
       <div
         onMouseEnter={() => {
           setH(true);
