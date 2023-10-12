@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+.transition-div {
+    transition: width 0.4s ease;
+}
+
+.transition-c {
+    transition: all 0.5s ease;
+}
+
+.transition-o {
+    transition: all 0.5s ease;
+}
+
+.custom-cursor {
+    cursor: url('') 10 10, auto;
+  }
