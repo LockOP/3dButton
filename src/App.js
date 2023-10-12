@@ -134,7 +134,7 @@ function App() {
             : "-translate-x-[20px] translate-y-[20px] opacity-0"
         } ${
           d
-            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[165px]"
+            ? "rotate-[-390deg] scale-50 -translate-x-[10px] translate-y-[175px]"
             : ""
         }`}
         src={s6}
